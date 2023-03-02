@@ -1,16 +1,3 @@
-// import { Component } from '@angular/core';
-// import { TASKS } from '../../mock.tasks';
-// import { Task } from '../../Types';
-
-// @Component({
-//   selector: 'app-tasks',
-//   templateUrl: './tasks.component.html',
-//   styleUrls: ['./tasks.component.css'],
-// })
-// export class TasksComponent {
-//   tasks: Task[] = TASKS;
-//   constructor() {}
-// }
 import { Component, OnInit } from '@angular/core';
 import { TaskService } from '../../services/task.service';
 import { Task } from '../../Types';
