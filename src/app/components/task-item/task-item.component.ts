@@ -13,6 +13,10 @@ export class TaskItemComponent {
   faTimes = faTimes;
 
   onDelete(task: Task) {
-    console.log('delete', task);
+    this.onDeleteTask.emit(task);
+  }
+
+  onToggle(task: Task) {
+    task.reminder = !task.reminder;
   }
 }
