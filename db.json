@@ -1,12 +1,6 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Vacation shopping",
-      "day": "May 9th at 10:30am",
-      "reminder": false
-    },
-    {
       "id": 2,
       "text": "Vacation shopping",
       "day": "May 9th at 10:30am",
@@ -41,6 +35,12 @@
       "text": "Vacation shopping",
       "day": "May 9th at 10:30am",
       "reminder": true
+    },
+    {
+      "text": "new",
+      "day": "tomorrow",
+      "reminder": true,
+      "id": 8
     }
   ]
 }
